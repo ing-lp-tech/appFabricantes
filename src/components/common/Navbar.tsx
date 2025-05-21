@@ -2,11 +2,11 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { GiTShirt } from "react-icons/gi";
+/* import { GiTShirt } from "react-icons/gi";
 import { GiBarbute } from "react-icons/gi";
-import { GiCowled } from "react-icons/gi";
+import { GiCowled } from "react-icons/gi"; */
 import { GiCpu } from "react-icons/gi";
-import { GiElectricalResistance } from "react-icons/gi";
+/* import { GiElectricalResistance } from "react-icons/gi"; */
 
 import { FaCalculator, FaPaintBrush, FaTimes, FaBars } from "react-icons/fa";
 import { BsPersonVcard } from "react-icons/bs";

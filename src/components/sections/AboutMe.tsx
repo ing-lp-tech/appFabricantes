@@ -8,6 +8,7 @@ import {
   FaFootballBall,
   FaBolt,
 } from "react-icons/fa";
+import Image from "next/image";
 
 const AboutMe = () => {
   return (
@@ -16,10 +17,12 @@ const AboutMe = () => {
         <div className="lg:flex lg:items-center lg:justify-between">
           {/* Imagen */}
           <div className="lg:w-1/2 lg:order-2">
-            <img
+            <Image
               className="w-full h-auto rounded-lg shadow-xl"
-              src={unlam.src} // Fixed the StaticImageData issue by using .src
+              src={unlam}
               alt="Ingeniero Electrónico"
+              width={500} // Ajusta según necesites
+              height={300} // Ajusta según necesites
             />
           </div>
 

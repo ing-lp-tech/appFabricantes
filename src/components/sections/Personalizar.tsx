@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 // ... resto del código igual
-
+/* 
 const Personalizar = () => {
   const [design, setDesign] = useState("");
   const [color, setColor] = useState("#000000");
@@ -119,3 +119,4 @@ const Personalizar = () => {
 };
 
 export default Personalizar;
+ */
